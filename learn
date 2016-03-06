@@ -1,0 +1,33 @@
+python开发爬虫
+难点：
+1.登陆
+2.AJAX异步抓取
+
+内容：
+1.爬虫简介
+2.简单爬虫架构
+3.URL管理器 （防止重复抓取）
+4.网页下载器（urllib2）
+5.网页解析器（BeautifulSoup）
+
+
+爬虫是什么？
+自动抓取互联网信息的程序
+
+简单爬虫架构：
+URL管理器实现方式：
+1.内存
+python爬虫,集合
+2.关系数据库
+3.缓存数据库
+集合
+
+网页下载器：（核心）
+将URL上对应的网页下载到本地
+python几种下载器？
+urllib2,requests（更强大）
+
+urllib2下载网页方法
+1.urlopen(url) url='www.baidu.com' 根据状态码判断
+2.data http header 
+3.
